@@ -5,13 +5,13 @@ import (
 	"math/rand"
 	"time"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/config"
-	"github.com/alibaba/sentinel-golang/core/flow"
-	"github.com/alibaba/sentinel-golang/ext/datasource"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/pkg/datasource/etcdv3"
+	sentinel "github.com/sunduoyou/sentinel-golang/api"
+	"github.com/sunduoyou/sentinel-golang/core/base"
+	"github.com/sunduoyou/sentinel-golang/core/config"
+	"github.com/sunduoyou/sentinel-golang/core/flow"
+	"github.com/sunduoyou/sentinel-golang/ext/datasource"
+	"github.com/sunduoyou/sentinel-golang/logging"
+	"github.com/sunduoyou/sentinel-golang/pkg/datasource/etcdv3"
 	"github.com/coreos/etcd/clientv3"
 )
 

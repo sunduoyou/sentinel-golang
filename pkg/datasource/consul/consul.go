@@ -5,9 +5,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/ext/datasource"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/sunduoyou/sentinel-golang/ext/datasource"
+	"github.com/sunduoyou/sentinel-golang/logging"
+	"github.com/sunduoyou/sentinel-golang/util"
 	"github.com/hashicorp/consul/api"
 )
 

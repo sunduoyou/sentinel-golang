@@ -19,9 +19,9 @@ import (
 	"math"
 	"testing"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/flow"
-	"github.com/alibaba/sentinel-golang/tests/benchmark"
+	sentinel "github.com/sunduoyou/sentinel-golang/api"
+	"github.com/sunduoyou/sentinel-golang/core/flow"
+	"github.com/sunduoyou/sentinel-golang/tests/benchmark"
 )
 
 const (

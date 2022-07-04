@@ -3,8 +3,8 @@ package grpc
 import (
 	"context"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
+	sentinel "github.com/sunduoyou/sentinel-golang/api"
+	"github.com/sunduoyou/sentinel-golang/core/base"
 	"google.golang.org/grpc"
 )
 

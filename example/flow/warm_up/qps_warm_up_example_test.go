@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/sunduoyou/sentinel-golang/util"
 
-	"github.com/alibaba/sentinel-golang/core/flow"
-
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
+	sentinel "github.com/sunduoyou/sentinel-golang/api"
+	"github.com/sunduoyou/sentinel-golang/core/base"
+	"github.com/sunduoyou/sentinel-golang/core/flow"
+	exporter "github.com/sunduoyou/sentinel-golang/exporter/metric/prometheus"
 )
 
 func Benchmark_qps(b *testing.B) {
@@ -73,6 +73,10 @@ func doTest() {
 
 			}
 		}()
+		mfs,_ := exporter.Registry().Gather()
+		fmt.Printf("mfs size is %d", len(mfs))
 	}
+	mfs,err := exporter.Registry().Gather()
+	fmt.Printf("mfs size is %d", len(mfs))
 	time.Sleep(time.Second * 5)
 }

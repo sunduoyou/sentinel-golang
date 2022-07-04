@@ -15,11 +15,11 @@
 package flow
 
 import (
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/stat"
-	metric_exporter "github.com/alibaba/sentinel-golang/exporter/metric"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/sunduoyou/sentinel-golang/core/base"
+	"github.com/sunduoyou/sentinel-golang/core/stat"
+	metric_exporter "github.com/sunduoyou/sentinel-golang/exporter/metric"
+	"github.com/sunduoyou/sentinel-golang/logging"
+	"github.com/sunduoyou/sentinel-golang/util"
 	"github.com/pkg/errors"
 )
 

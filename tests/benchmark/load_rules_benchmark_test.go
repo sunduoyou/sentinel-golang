@@ -19,9 +19,9 @@ import (
 	"strconv"
 	"testing"
 
-	cb "github.com/alibaba/sentinel-golang/core/circuitbreaker"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	cb "github.com/sunduoyou/sentinel-golang/core/circuitbreaker"
+	"github.com/sunduoyou/sentinel-golang/logging"
+	"github.com/sunduoyou/sentinel-golang/util"
 )
 
 func Test_Size_1000_Circuit_Breaker_Rules_Update(t *testing.T) {

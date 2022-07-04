@@ -3,8 +3,8 @@ package flow
 import (
 	"testing"
 
-	"github.com/alibaba/sentinel-golang/core/system_metric"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/sunduoyou/sentinel-golang/core/system_metric"
+	"github.com/sunduoyou/sentinel-golang/util"
 	"github.com/stretchr/testify/assert"
 )
 

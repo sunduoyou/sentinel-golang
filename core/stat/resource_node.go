@@ -15,8 +15,8 @@
 package stat
 
 import (
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/config"
+	"github.com/sunduoyou/sentinel-golang/core/base"
+	"github.com/sunduoyou/sentinel-golang/core/config"
 )
 
 type ResourceNode struct {

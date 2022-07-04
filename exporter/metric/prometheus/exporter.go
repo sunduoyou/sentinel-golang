@@ -131,6 +131,6 @@ func HTTPHandler() http.Handler {
 	return httpHandler
 }
 
-func Registry() *prometheus.Registry {
+func Registry() prometheus.Gatherer {
 	return registry
 }

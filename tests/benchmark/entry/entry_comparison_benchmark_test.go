@@ -20,10 +20,10 @@ import (
 	"sort"
 	"testing"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/stat"
-	"github.com/alibaba/sentinel-golang/logging"
+	sentinel "github.com/sunduoyou/sentinel-golang/api"
+	"github.com/sunduoyou/sentinel-golang/core/base"
+	"github.com/sunduoyou/sentinel-golang/core/stat"
+	"github.com/sunduoyou/sentinel-golang/logging"
 )
 
 var numbers = make([]int, 0)

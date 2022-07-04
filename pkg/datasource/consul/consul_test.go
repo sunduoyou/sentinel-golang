@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/core/system"
-	"github.com/alibaba/sentinel-golang/ext/datasource"
+	"github.com/sunduoyou/sentinel-golang/core/system"
+	"github.com/sunduoyou/sentinel-golang/ext/datasource"
 	"github.com/hashicorp/consul/api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

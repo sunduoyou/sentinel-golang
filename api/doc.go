@@ -21,7 +21,7 @@
 //
 // Here is the example code to use Sentinel:
 //
-//  import sentinel "github.com/alibaba/sentinel-golang/api"
+//  import sentinel "github.com/sunduoyou/sentinel-golang/api"
 //
 //  err := sentinel.InitDefault()
 //  if err != nil {
