@@ -22,13 +22,14 @@ import (
 )
 
 var (
-	registry = prometheus.DefaultRegisterer
+	registry *prometheus.Registry
+
 	httpHandler http.Handler
 )
 
 func init() {
-
-	h := promhttp.HandlerFor(prometheus.DefaultGatherer, promhttp.HandlerOpts{})
+    registry = prometheus.NewRegistry()
+	h := promhttp.HandlerFor(registry, promhttp.HandlerOpts{})
 	httpHandler = promhttp.InstrumentMetricHandler(registry, h)
 }
 
@@ -128,4 +129,8 @@ func (h *Histogram) Reset() {
 
 func HTTPHandler() http.Handler {
 	return httpHandler
+}
+
+func Registry() *prometheus.Registry {
+	return registry
 }
